@@ -1,1 +1,3 @@
-# syst_credit
+# Systematic Credit Project
+
+Elliot Willner
