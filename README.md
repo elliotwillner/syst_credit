@@ -1,4 +1,4 @@
-# Systematic Credit Mini-Pipeline
+# Systematic Credit Project
 
 Elliot Willner
 
