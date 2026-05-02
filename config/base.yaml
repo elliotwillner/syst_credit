@@ -17,13 +17,21 @@ regime:
   risk_on_threshold: -0.75
   risk_off_threshold: 0.75
   weights:
-    unemployment_z: 0.30
-    vix_z: 0.30
-    hy_oas_z: 0.30
-    yield_curve: -0.10
+    unemployment_z: 0.25
+    vix_z: 0.25
+    hy_oas_proxy_z: 0.30
+    yield_curve_z: -0.20
 
 portfolio:
-  top_perc: 0.20
+  selection_pct: 0.10
+  min_bonds: 100
   max_issuer_weight: 0.05
-  max_sector_weight: 0.25
+  max_sector_weight: 0.70
   max_ccc_weight: 0.15
+
+  bond_signal:
+  ytw_weight: 0.40
+  oas_weight: 0.35
+  dts_penalty: 0.30
+  duration_penalty: 0.15
+  ccc_penalty: 0.40
