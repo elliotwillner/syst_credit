@@ -35,6 +35,7 @@ syst_credit/
 ├── src/
 │   ├── data_loader.py             # Load bond data
 │   ├── validation.py              # Data integrity checks
+│   ├── config.py                  # Config setup
 │   ├── features/
 │   │   ├── credit_features.py     # Internal OAS proxy
 │   │   └── macro_features.py      # Macro feature construction
