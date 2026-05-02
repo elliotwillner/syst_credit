@@ -1,0 +1,29 @@
+paths:
+  raw_bond_part_1: "data/raw/USHY_INDEX_20260301_part_1.csv"
+  raw_bond_part_2: "data/raw/USHY_INDEX_20260301_part_2.csv"
+  raw_macro_dir: "data/raw/macro"
+  processed_dir: "data/processed"
+  outputs_dir: "outputs"
+
+data:
+  start_date: "2010-01-01"
+  end_date: "2026-03-01"
+
+features:
+  oas_proxy_method: "median"
+  z_window: 36
+
+regime:
+  risk_on_threshold: -0.75
+  risk_off_threshold: 0.75
+  weights:
+    unemployment_z: 0.30
+    vix_z: 0.30
+    hy_oas_z: 0.30
+    yield_curve: -0.10
+
+portfolio:
+  top_perc: 0.20
+  max_issuer_weight: 0.05
+  max_sector_weight: 0.25
+  max_ccc_weight: 0.15
