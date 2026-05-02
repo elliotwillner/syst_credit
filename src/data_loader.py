@@ -1,5 +1,9 @@
 from pathlib import Path
 import pandas as pd
+import logging
+
+
+logger = logging.getLogger(__name__)
 
 
 def load_bond_data(config: dict) -> pd.DataFrame:
