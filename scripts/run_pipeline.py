@@ -14,6 +14,9 @@ from src.portfolio.construction import build_portfolio
 from src.portfolio.backtest import run_backtest
 from src.evaluation.metrics import combine_metrics
 from src.utils.logging import setup_logging
+import logging
+
+logger = logging.getLogger(__name__)
 
 
 def main(config_path: str):
@@ -49,6 +52,8 @@ def main(config_path: str):
     results.to_csv("outputs/results.csv")
     metrics.to_csv("outputs/metrics.csv")
 
+    logger.info("Saved results to outputs/results.csv")
+    logger.info("Saved metrics to outputs/metrics.csv")
 
 if __name__ == "__main__":
     main("config/base.yaml")
