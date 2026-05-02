@@ -1,0 +1,15 @@
+,0
+start_date,2012-12-01 00:00:00
+end_date,2026-02-01 00:00:00
+n_months,159
+annualized_excess_return,0.27504847575815056
+annualized_volatility,0.8598568377354837
+sharpe_ratio,0.3198770582350864
+cumulative_excess_return,2.8360993161142507
+max_drawdown,-0.8408302263965355
+hit_rate,0.5157232704402516
+best_month,2.728060155075983
+worst_month,-0.3242505653350497
+avg_monthly_return,0.022920706313179214
+avg_monthly_turnover,0.31530271724599973
+max_monthly_turnover,0.9258859761181119
