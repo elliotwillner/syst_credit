@@ -70,7 +70,7 @@ syst_credit/
 pip install -r requirements.txt
 ```
 
-### 2. Run the pipeline
+### 2. Edit config in `config/base.yaml` & run the pipeline
 
 ```bash
 python scripts/run_pipeline.py
